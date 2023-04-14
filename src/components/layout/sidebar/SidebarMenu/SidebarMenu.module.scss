@@ -1,0 +1,8 @@
+.menu {
+  @apply bg-bgLightGray ;
+  border-inline-end: none !important;
+}
+
+.item {
+  @apply flex flex-col justify-center text-left font-semibold;
+}

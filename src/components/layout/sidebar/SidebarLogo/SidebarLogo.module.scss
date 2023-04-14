@@ -1,0 +1,11 @@
+.container {
+  @apply relative flex items-center text-lg font-bold gap-1 text-black;
+}
+
+.logo {
+  @apply relative flex items-center text-primary text-3xl z-10;
+  &:after {
+    @apply  content-[""] absolute left-1/2 block w-5 h-2.5 bg-white -z-10;
+    transform: translateX(-50%);
+  }
+}

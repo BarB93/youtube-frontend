@@ -1,0 +1,31 @@
+.container {
+  @apply flex flex-col items-center mt-10 text-sm ;
+}
+
+.avatar {
+  @apply flex items-center justify-center mb-2;
+}
+
+.name {
+  @apply font-bold text-sm;
+}
+
+.location {
+  @apply text-xs text-gray-500;
+}
+
+.metrics {
+  @apply flex justify-around w-full gap-2 mt-7;
+}
+
+.metric_item {
+  @apply leading-4;
+}
+
+.metric_value {
+  @apply font-bold;
+}
+
+.metric_name {
+  @apply text-xs text-gray-500 uppercase;
+}
